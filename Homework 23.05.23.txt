@@ -1,0 +1,11 @@
+#!/bin/bash
+ 
+ NAME=Dumitru
+ echo "your name is: $NAME"
+ 
+ DIRECTORY=Dumitru
+ echo "your working directory is: $DIRECTORY"
+ 
+ echo "Number of users:" && ps -ef | wc -l
+ 
+ echo "done"
